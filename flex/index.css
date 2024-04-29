@@ -1,0 +1,81 @@
+:root {
+    --gap-app: 0.5rem;
+}
+
+body {
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: cyan;
+    height: 100%;
+}
+
+footer {
+    background-color: orange;
+    height: 100%;
+}
+
+.related-stuff {
+    display: flex;
+    gap: var(--gap-app);
+    justify-content: space-evenly;
+
+    .related-images {
+        background-color: green;
+        width: 80%;
+    }
+
+    .related-posts {
+        background-color: lightpink;
+        width: 20%;
+    }
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-app);
+    width: 70%;
+
+    .main-content {
+        background-color: rgb(243, 206, 60);
+        height: 60%;
+    }
+
+    .extra-content {
+        background-color: gray;
+        height: 40%;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    gap: var(--gap-app);
+    height: 100vh;
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap-app);
+        width: 30%;
+
+        .hero {
+            background-color: pink;
+            height: 45%;
+        }
+
+        .sidebar {
+            background-color: lightgreen;
+            height: 55%;
+        }
+    }
+}
+
+.holy-grail {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-app);
+}
