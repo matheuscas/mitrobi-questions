@@ -9,7 +9,7 @@
 As you are aware, you can see the result of this question running:
 
 ```
-python -m SimpleHTTPServer <port>
+python[3] -m http.server <port>
 ```
 And accessing the `index.html` directly through the URL. 
 
